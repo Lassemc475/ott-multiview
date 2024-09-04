@@ -21,7 +21,7 @@ window.onload = function() {
 	displayStats = true;
 
 	/* updatde stats */
-	updateVideoStatsTimer = setInterval(function(){ onTimer() }, 1000);
+	// updateVideoStatsTimer = setInterval(function(){ onTimer() }, 1000);
 		
     }, function() {
         displayStats = false;

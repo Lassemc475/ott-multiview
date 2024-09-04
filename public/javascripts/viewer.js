@@ -42,8 +42,10 @@ function initHlsPlayer(conf, videoelemid, donecb) {
   hls.on(Hls.Events.LEVEL_SWITCH, function(event, data) {
     var level = hls.levels[data.level];
     var metaelem = document.getElementById(hls.media.id + '-meta');
-    metaelem.innerHTML = (level.bitrate / 1000).toFixed(0) + 'kbps';
+    // metaelem.innerHTML = (level.bitrate / 1000).toFixed(0) + 'kbps';
+    console.log(data)
   });
+
 }
 
 function initDashPlayer(conf, videoelemid, donecb) {
@@ -93,7 +95,7 @@ function initViewPort(conf, videoelemid) {
     videoelem.addEventListener("click", onVideoClick);
     videoelem.addEventListener("waiting", onWaiting);
     videoelem.addEventListener("playing", onPlaying);
-    var titleelem = document.getElementById(videoelemid+'-title');
+    var titleelem = document.getElementById(videoelemid+'-shortcut');
     titleelem.innerHTML = conf.title;
   });
 }

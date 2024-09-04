@@ -1,38 +1,38 @@
 {
   "row0": [
     { "title": "Example 1",
-      "manifest": "https://content.jwplatform.com/manifests/vM7nH0Kl.m3u8",
+      "manifest": "https://cdn0-70014-odedge1.dna.ip-only.net/70014-odedge1/vods/blobs1/668eaa48c84b3975e0ed931a/index.m3u8",
       "type": "hls"
     },
     { "title": "Example 2",
-      "manifest": "https://content.jwplatform.com/manifests/vM7nH0Kl.m3u8",
+      "manifest": "https://cdn0-70014-odedge1.dna.ip-only.net/70014-odedge1/vods/blobs1/668eaa48c84b3975e0ed931a/index.m3u8",
       "type": "hls"
     },
     { "title": "Example 3",
-      "manifest": "https://content.jwplatform.com/manifests/vM7nH0Kl.m3u8",
+      "manifest": "https://cdn0-70014-odedge1.dna.ip-only.net/70014-odedge1/vods/blobs1/668eaa48c84b3975e0ed931a/index.m3u8",
       "type": "hls"
     },
     { "title": "Example 4",
-      "manifest": "https://content.jwplatform.com/manifests/vM7nH0Kl.m3u8",
+      "manifest": "https://cdn0-70014-odedge1.dna.ip-only.net/70014-odedge1/vods/blobs1/668eaa48c84b3975e0ed931a/index.m3u8",
       "type": "hls"
     }
  ],
-  "row1": [
-    { "title": "Example 5",
-      "manifest": "https://www.bok.net/dash/tears_of_steel/cleartext/stream.mpd",
-      "type": "dash"
-    },
-    { "title": "Example 6",
-      "manifest": "https://www.bok.net/dash/tears_of_steel/cleartext/stream.mpd",
-      "type": "dash"
-    },
-    { "title": "Example 7",
-      "manifest": "https://www.bok.net/dash/tears_of_steel/cleartext/stream.mpd",
-      "type": "dash"
-    },
-    { "title": "Example 8",
-      "manifest": "https://www.bok.net/dash/tears_of_steel/cleartext/stream.mpd",
-      "type": "dash"
-    }
-  ]
+ "row1": [
+  { "title": "Example 1",
+    "manifest": "https://cdn0-70014-odedge1.dna.ip-only.net/70014-odedge1/vods/blobs1/668eaa48c84b3975e0ed931a/index.m3u8",
+    "type": "hls"
+  },
+  { "title": "Example 2",
+    "manifest": "https://cdn0-70014-odedge1.dna.ip-only.net/70014-odedge1/vods/blobs1/668eaa48c84b3975e0ed931a/index.m3u8",
+    "type": "hls"
+  },
+  { "title": "Example 3",
+    "manifest": "https://cdn0-70014-odedge1.dna.ip-only.net/70014-odedge1/vods/blobs1/668eaa48c84b3975e0ed931a/index.m3u8",
+    "type": "hls"
+  },
+  { "title": "Example 4",
+    "manifest": "https://cdn0-70014-odedge1.dna.ip-only.net/70014-odedge1/vods/blobs1/668eaa48c84b3975e0ed931a/index.m3u8",
+    "type": "hls"
+  }
+]
 }
